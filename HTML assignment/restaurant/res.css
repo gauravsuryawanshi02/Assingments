@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.container{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(pexels-photo-326279.jpeg);
+    
+    
+}
+li{
+  display: inline-block;
+  padding: 0px 20px; 
+}
+a{
+    color: peru;
+    text-decoration: none;
+}
+button{
+    border-radius: 10px;
+    padding: 5px;
+    background-color:peru;
+    border-style: none;
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+.menu{
+    cursor: pointer;
+    transition: 0.5s;
+    
+}
+
+button:hover{
+    transform:translateY(-2px);
+}
+.menu:hover{
+    transform:  translateY(-2px);
+}
+li:hover{
+    transform:  translateY(-2px);
+}
+.section{
+    text-align: center;
+    background-color: black;
+}
+
+.section h1{
+    color: #fff;
+}
+.align{
+    text-align: center;
+    background-color: black;
+}
+.card{
+    width: 250px;
+    height: 200px;
+    display:inline-block;
+    padding: 10px;
+    margin: 10px;
+
+    border-radius: 10px;
+    
+    box-sizing:content-box;
+    cursor: pointer;
+    background-color: brown;
+    transition: transform 0.5s;
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+}
+.c1{
+    background-image: url('cake.jpeg');
+
+}
+.c2{
+    background-image: url('burger.jpeg');
+}
+.c3{
+    background-image: url('pizza.jpeg');
+}
+.c4{
+    background-image: url('drink.jpeg');
+}
+.card:hover{
+    transform: translateX(-13px);
+
+}
+.card h5{
+    color: peru;
+    font-weight: 500;
+    font-size: 20px;
+    
+}
+p{
+    color: blanchedalmond;
+}
+.about{
+    background-color: black;
+    padding: 5px;
+    text-align: right;
+    border-top: peru;
+    border-style: solid;
+    border-width: 2px;
+
+}
+.p1{
+    color:#fff;
+    font-size: 10px;
+
+}
+.logo{
+    cursor: pointer;
+    transition: 0.5s;
+}
+.logo:hover{
+    transform: translate(-10px,2px);
+}
+.section h1:hover{
+    color:peru ;
+}
